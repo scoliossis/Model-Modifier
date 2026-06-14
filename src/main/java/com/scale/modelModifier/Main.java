@@ -1,10 +1,10 @@
 package com.scale.modelModifier;
 
-import com.scale.modelModifier.mixins.modelmodifier.ChildPartMapAccessor;
-import com.scale.modelModifier.utils.antibot.TargetUtil;
-import com.scale.modelModifier.utils.model.LivingEntityInfo;
-import com.scale.modelModifier.utils.model.Model;
-import com.scale.modelModifier.utils.model.ModelParser;
+import com.scale.modelModifier.mixins.ChildPartMapAccessor;
+import com.scale.modelModifier.utils.LivingEntityInfo;
+import com.scale.modelModifier.utils.Model;
+import com.scale.modelModifier.utils.ModelParser;
+import com.scale.modelModifier.utils.TargetUtil;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.SimpleSynchronousResourceReloadListener;

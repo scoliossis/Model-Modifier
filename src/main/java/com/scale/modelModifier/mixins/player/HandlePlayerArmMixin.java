@@ -1,8 +1,8 @@
-package com.scale.modelModifier.mixins.modelmodifier.player;
+package com.scale.modelModifier.mixins.player;
 
 import com.scale.modelModifier.Main;
-import com.scale.modelModifier.utils.model.LivingEntityInfo;
-import com.scale.modelModifier.utils.model.Model;
+import com.scale.modelModifier.utils.LivingEntityInfo;
+import com.scale.modelModifier.utils.Model;
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.OverlayTexture;
 import net.minecraft.client.render.RenderLayer;

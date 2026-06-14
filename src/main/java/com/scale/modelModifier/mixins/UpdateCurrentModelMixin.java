@@ -1,4 +1,4 @@
-package com.scale.modelModifier.mixins.modelmodifier;
+package com.scale.modelModifier.mixins;
 
 import com.scale.modelModifier.Main;
 import net.minecraft.client.model.Model;

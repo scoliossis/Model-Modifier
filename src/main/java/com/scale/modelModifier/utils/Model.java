@@ -1,9 +1,7 @@
-package com.scale.modelModifier.utils.model;
+package com.scale.modelModifier.utils;
 
-import com.scale.modelModifier.Main;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Vec3d;
-import org.joml.Vector3f;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.scale.modelModifier.mixins.modelmodifier.player;
+package com.scale.modelModifier.mixins.player;
 
 import com.scale.modelModifier.Main;
 import net.minecraft.client.render.command.OrderedRenderCommandQueue;

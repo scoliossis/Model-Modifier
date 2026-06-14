@@ -1,4 +1,4 @@
-package com.scale.modelModifier.mixins.modelmodifier;
+package com.scale.modelModifier.mixins;
 
 import net.minecraft.client.model.ModelPart;
 import org.spongepowered.asm.mixin.Mixin;

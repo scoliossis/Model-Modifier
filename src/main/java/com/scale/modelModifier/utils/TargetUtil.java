@@ -1,4 +1,4 @@
-package com.scale.modelModifier.utils.antibot;
+package com.scale.modelModifier.utils;
 
 import com.scale.modelModifier.Main;
 import net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListWidget;
@@ -15,7 +15,7 @@ import java.util.UUID;
 // i left in a teams check, but i think the whole squad should be raymen
 public class TargetUtil {
     public static SocialInteractionsPlayerListWidget PLAYER_LIST_WIDGET;
-    public static final HashMap<UUID, Integer> CONSECUTIVE_VALID_PLAYER_TICKS = new HashMap<>();
+    public static final HashMap<UUID, Integer> ENTITY_VALID_TICKS = new HashMap<>();
 
     public static boolean isTeam(Entity target) {
         if (!(target instanceof PlayerEntity player)) return false;
@@ -29,6 +29,6 @@ public class TargetUtil {
 
         return entity != null
                 && playerEntityRenderState.id != Main.p().getId()
-                && CONSECUTIVE_VALID_PLAYER_TICKS.getOrDefault(entity.getUuid(), 0) <= 5;
+                && ENTITY_VALID_TICKS.getOrDefault(entity.getUuid(), 0) <= 5;
     }
 }

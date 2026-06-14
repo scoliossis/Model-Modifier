@@ -1,7 +1,7 @@
-package com.scale.modelModifier.mixins.modelmodifier.player;
+package com.scale.modelModifier.mixins.player;
 
 import com.scale.modelModifier.Main;
-import com.scale.modelModifier.utils.model.Model;
+import com.scale.modelModifier.utils.Model;
 import net.minecraft.client.render.command.OrderedRenderCommandQueue;
 import net.minecraft.client.render.entity.feature.FeatureRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRendererContext;

@@ -1,8 +1,8 @@
-package com.scale.modelModifier.mixins.modelmodifier;
+package com.scale.modelModifier.mixins;
 
 import com.scale.modelModifier.Main;
-import com.scale.modelModifier.utils.model.ModelFace;
-import com.scale.modelModifier.utils.model.Triangle;
+import com.scale.modelModifier.utils.ModelFace;
+import com.scale.modelModifier.utils.Triangle;
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.EntityModelPartNames;

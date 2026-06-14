@@ -1,4 +1,4 @@
-package com.scale.modelModifier.utils.model;
+package com.scale.modelModifier.utils;
 
 import net.minecraft.client.model.ModelPart;
 
